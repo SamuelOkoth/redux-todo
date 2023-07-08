@@ -44,7 +44,7 @@ export const createTodo = async (req, res) => {
         res.status(500).json({ error: 'An error occurred while creating the todo' });
     } finally {
         sql.close();
-        sql.Date()   // Close the SQL connection
+           // Close the SQL connection
     }
 };
 // // Update a todo
